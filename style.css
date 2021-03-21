@@ -1,0 +1,142 @@
+
+:root {
+
+	--white-color: #eeeeee; /* updated*/
+	--dark-color: #222220; /* updated*/
+	--dim-color: #383837;  /* updated*/
+	--hover-color: #414141; /* updated*/
+}
+
+body {
+	background: var(--dark-color);
+	font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+	width: 90%;
+	max-width: 600px;
+	margin: 36px auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.circle-shape {
+	width: 96px;
+	height: 96px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.profile-pic {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+.username {
+	font-weight: 400;
+	margin-top: 12px;
+	opacity: .5;
+}
+
+.webinar{
+	animation-duration: 3s;
+}
+
+.category01 {
+	color: var(--white-color);
+	margin-top: 24px;
+	font-weight: 600;
+}
+.category02 {
+	line-height: 0;
+	color: var(--white-color);
+	margin-bottom: 30px;
+	margin-top: 48px;
+	font-weight: 600;
+}
+
+
+a {
+	color: var(--white-color);
+	text-decoration: none;
+}
+
+.ig-link {
+	margin: 12px 0;
+	font-weight: bold;
+}
+
+.link-list {
+	margin-top: 16px;
+}
+.link-list p {
+	line-height: 120% !important;
+	text-align: left;
+}
+
+.link-list-item {
+	box-sizing: border-box;
+	margin: 12px auto;
+	color: var(--white-color);
+	padding: 8px 18px;
+	transition: all 0.15s;
+	background: var(--dim-color);
+
+	border-radius: 12px;
+	border: 1px solid #1b1a290a;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	overflow: hidden;
+}
+
+.icon-link{
+	margin-left: auto
+}
+
+.icon {
+	margin-right: 16px;
+}
+
+i {
+	margin-left: 16px;
+}
+
+.link-list-item:hover {
+	background: var(--hover-color);
+}
+
+footer p {
+	color: var(--white-color);
+	margin-top: 16px;
+	padding: 18px;
+	line-height: 150%;
+	font-size: 16px;
+	text-align: center !important;
+}
+
+footer a {
+	text-decoration: underline;
+}
+
+span {
+	font-weight: bold;
+}
+
+.tag{
+	font-weight: normal;
+	font-size: .8rem;
+	padding: .26rem;
+	border-radius: .3rem;
+	background: rgb(102, 135, 141);
+	margin-top: 10px !important;
+}
+
+.tag:last-child{
+	background: #6d5d65;
+}
